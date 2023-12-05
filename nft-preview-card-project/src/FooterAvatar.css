@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: hsl(215, 51%, 70%)
+}
+.footer img{
+    border: 0.5px solid white;
+    border-radius: 75px;
+    width: 40px;
+}
+.avatar-name{
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.avatar-name:hover{
+    color: hsl(178, 100%, 50%);
+}

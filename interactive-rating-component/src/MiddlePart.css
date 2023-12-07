@@ -1,0 +1,18 @@
+.middle-box {
+  background-color: hsl(213, 19%, 18%);
+  padding: 50px;
+  margin: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  width: 300px;
+  border-radius: 30px;
+}
+.middle-nums{
+  display: flex;
+  gap: 1rem;
+}
+.btns{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

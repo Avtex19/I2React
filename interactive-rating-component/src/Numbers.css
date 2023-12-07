@@ -1,0 +1,26 @@
+/* Numbers.css */
+button {
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 100%;
+    border: 1px;
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    color: hsl(217, 12%, 63%);
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    transition: transform 2s ease-in-out;
+}
+
+button.clicked {
+    background-color: #00ff00; /* Set the background color for the active state */
+    /* Add any other styles for the active state */
+}
+
+button.unclicked {
+    background-color: hsl(216, 12%, 8%);
+}

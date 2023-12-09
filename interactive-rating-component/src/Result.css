@@ -1,0 +1,26 @@
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.score-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.score-text #first-p-tag{
+    border-radius: 30px;
+    background-color:hsl(217, 80%, 25%);
+    padding: 5px 10px;
+    color: hsl(25, 97%, 53%);;
+}
+.score-text p,h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif ;
+    font-weight: bold;
+}
+.score-text #second-text{
+    text-align: center;
+    font-size: medium;
+    font-family: "Arial Narrow", fantasy;
+}

@@ -1,8 +1,13 @@
+// SubmitButton.jsx
+import React from 'react';
 import './SubmitButton.css';
-function SubmitButton(props){
-    return <div>
-        <button className='sbmt-btn'>Submit</button>
 
-    </div>;
+function SubmitButton({ onSubmit }) {
+    return (
+        <button className="sbmt-btn" onClick={onSubmit}>
+            Submit
+        </button>
+    );
 }
+
 export default SubmitButton;

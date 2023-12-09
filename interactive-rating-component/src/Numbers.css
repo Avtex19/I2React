@@ -17,10 +17,8 @@ button:hover {
 }
 
 button.clicked {
-    background-color: #00ff00; /* Set the background color for the active state */
+    background-color: hsl(217, 80%, 25%); /* Set the background color for the active state */
     /* Add any other styles for the active state */
 }
 
-button.unclicked {
-    background-color: hsl(216, 12%, 8%);
-}
+

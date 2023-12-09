@@ -2,12 +2,7 @@ import './Numbers.css';
 export const Numbers = props => {
     return (
         <button
-            style={{
-                backgroundColor: `${
-                    props.chosenNumber === props.number ? 'blue' : 'black'
-                } `,
-                color: 'white',
-            }}
+            className={props.chosenNumber === props.number ? "clicked" : ""}
             onClick={() => {
                 props.setChosenNumber(prev => (prev === props.number ? -1 : props.number)); //prev is a previous state of the chosen number. If previous state
                 // of the chosen number is equal to the current number then we set the new state to -1 (unselecting the number, indicating no selection)

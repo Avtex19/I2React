@@ -1,0 +1,10 @@
+.middle-part{
+    background-color: hsl(0, 0%, 100%);
+    padding: 50px;
+    margin: 50px;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}

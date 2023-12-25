@@ -1,0 +1,128 @@
+.left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 300px;
+}
+.bill-part,
+.tip-part{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.people-part{
+    display: flex;
+    flex-direction: column;
+}
+.bill-input-image,
+.people-icon{
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.amount-input,
+.people-input{
+        height:20px;
+        margin:0;
+        padding-left:30px;
+        text-align: right;
+        width: 100%;
+        box-sizing: border-box; /* Add this line */
+}
+
+.dollar-icon,
+.person-icon{
+    position:absolute;
+    bottom:6px;
+    left:10px;
+    width:10px;
+    height:10px;
+}
+.buttons-and-inputs {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    gap: 1rem;
+}
+.buttons-and-inputs button{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.buttons-and-inputs input,
+.amount-input,
+.people-input{
+    color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(189, 41%, 97%);
+    cursor: pointer;
+}
+
+.first-row,
+.second-row{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.first-row div, .second-row div{
+    width: 33%;
+    height: 50%;
+    & button {
+        width: 100%;
+        padding: 10px;
+    }
+}
+.second-row div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amount-tip{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+text-align: right;
+}
+.amount-tip::placeholder{
+    font-size: 10px;
+    text-align: center;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}  /*for hiding number type arrows */
+
+.people-label-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+.people-label-input p{
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: xx-small;
+    color:red;
+    font-weight: 700;
+}
+
+
+label{
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: xx-small;
+    color:hsl(184, 14%, 56%);
+    font-weight: 700;
+}
+input:focus {
+    outline: hsl(184, 14%, 56%) solid 1px;
+}
+.buttons-and-inputs button:hover{
+    background-color: hsl(185, 41%, 84%);
+}
+
+
+

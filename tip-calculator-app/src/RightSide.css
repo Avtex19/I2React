@@ -1,0 +1,56 @@
+.right-side-box{
+    background-color: hsl(183, 100%, 15%);
+    padding: 5px 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.tip-amount-person,
+.total-amount-person{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+.tip-amount-person label,
+.total-amount-person label{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.tip-amount-person label h2,
+.total-amount-person label h2,
+.tip-amount-person label p,
+.total-amount-person label p {
+    margin: 1px; /* Adjust this value as needed */
+}
+.reset-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reset-button button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(186, 14%, 43%);
+    color: hsl(183, 100%, 15%);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.reset-button button:hover{
+    background-color: hsl(185, 41%, 84%);
+}
+.tip-amount-person h1,
+.total-amount-person h1{
+    color: hsl(185, 41%, 84%);
+}
+.tip-amount-person p,
+.total-amount-person p{
+    color:hsl(184, 14%, 56%);
+}
+
+
+
